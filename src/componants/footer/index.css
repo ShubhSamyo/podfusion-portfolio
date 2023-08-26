@@ -1,0 +1,13 @@
+.bg-image {
+  background-image: url("/bg-2.svg");
+}
+.right_sectioin {
+  background: linear-gradient(
+    12deg,
+    #4e4495 49.84%,
+    rgba(157, 136, 196, 0) 100%
+  );
+  border-radius: 50px;
+  color: #fff;
+  height: 44px;
+}
