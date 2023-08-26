@@ -1,0 +1,20 @@
+.card-section {
+  width: 312px;
+}
+.text-section {
+  background-image: linear-gradient(
+    to left bottom,
+    #eac0cd,
+    #ecc6d2,
+    #eeccd7,
+    #f0d3dc,
+    #f2d9e1,
+    #f3dfe6,
+    #f5e4eb,
+    #f6eaf0,
+    #f7eff5,
+    #f9f5f9,
+    #fbfafd,
+    #ffffff
+  );
+}
