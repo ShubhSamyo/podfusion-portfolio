@@ -2,13 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto+Flex:opsz@8..144&family=Roboto+Serif:opsz@8..144&family=ZCOOL+XiaoWei&display=swap');
+
 :root {
+  --blue: #1e90ff;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-  }
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body {
+.roboto {
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+.aclonica {
+  font-family: 'Aclonica', sans-serif;
+}
+
+.roboto-serif {
+  font-family: 'Roboto Serif', serif;
+}
+
+.z-cool{
+  font-family: 'ZCOOL XiaoWei', sans-serif;
 }
