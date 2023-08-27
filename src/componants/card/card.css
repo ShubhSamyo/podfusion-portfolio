@@ -1,8 +1,8 @@
 .card-section {
-  width: 312px;
+  width: 342px;
 }
 .text-section {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to left bottom,
     #eac0cd,
     #ecc6d2,
@@ -16,5 +16,12 @@
     #f9f5f9,
     #fbfafd,
     #ffffff
+  ); */
+  border-radius: 0px 0px 30px 30px;
+  background: linear-gradient(
+    186deg,
+    #eac0cd 0%,
+    rgba(245, 226, 232, 0.82) 36.31%,
+    rgba(255, 255, 255, 0.63) 100%
   );
 }

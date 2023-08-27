@@ -13,7 +13,7 @@ const Card = () => {
           alt="Connect Multiple Provider Together"
         />
       </div>
-      <div className="text-center text-section">
+      <div className="text-center text-section px-4 py-4">
         <h3>Connect multiple providers together</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur. Mauris mi etiam dignissim

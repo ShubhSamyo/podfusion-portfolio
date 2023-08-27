@@ -62,18 +62,18 @@ export default function Footer() {
   return (
     <footer className="footer_section">
       <div className="container-fluid bg-image">
-        <div className="container ">
+        <div className="container pt-5">
           <div className="row  d-flex align-items-center">
             <div className="col-4 left_section">
               <img src="logo.svg" />
             </div>
             <div className="col-7 right_sectioin px-5  d-flex align-items-center justify-content-between">
               <div className="col-3 quick-links">
-                <span> Quick Links</span>
+                <span className="quick"> Quick Links</span>
               </div>
               <div className="col-7 sec d-flex justify-content-between">
                 <div className="footer-stay">
-                  <span> Stay updated</span>
+                  <span className="quick"> Stay updated</span>
                 </div>
                 <div className="footer-icons d-flex">
                   {iconsData &&
@@ -93,7 +93,7 @@ export default function Footer() {
           </div>
 
           <div className="row">
-            <div className="col-4 left_section1">
+            <div className="col-4 left_section1  pt-4 ">
               Lorem ipsum dolor sit amet
               <br />
               consectetur. Luctus tincidunt neque
@@ -106,7 +106,7 @@ export default function Footer() {
             </div>
             <div className="col-7 right_section2  d-flex  justify-content-between ">
               <div className="col-3 left d-flex justify-content-evenly">
-                <div className="footer_link1">
+                <div className="footer_link1 ">
                   <ul>
                     {footerLink1 &&
                       footerLink1.map((item: any) => {
@@ -114,7 +114,7 @@ export default function Footer() {
                       })}
                   </ul>
                 </div>
-                <div className="footer_link2">
+                <div className="footer_link1">
                   <ul>
                     {footerLink2 &&
                       footerLink2.map((item: any) => {

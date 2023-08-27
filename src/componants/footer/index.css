@@ -1,5 +1,7 @@
 .bg-image {
+  height: 400px;
   background-image: url("/bg-2.svg");
+  background-size: cover;
 }
 .right_sectioin {
   background: linear-gradient(
@@ -11,18 +13,6 @@
   color: #fff;
   height: 44px;
 }
-
-/* .input_group1 {
-  background-image: linear-gradient(
-    to bottom,
-    #3d318a,
-    #5051a8,
-    #6572c6,
-    #7c94e3,
-    #96b6ff
-  );
-  border-radius: 5px;
-} */
 
 .btn {
   border-radius: 15px;
@@ -70,4 +60,37 @@
   /* Drop shadow */
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5),
     1px 1px 2px 0px rgba(0, 0, 0, 0.48);
+}
+.footer_link1 {
+  color: #3d318a;
+  font-family: ZCOOL XiaoWei;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: normal; */
+}
+
+.left_section1 {
+  color: #3d318a;
+  font-family: Roboto Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: normal; */
+}
+.email-title-heading {
+  color: #3d318a;
+  font-family: Roboto Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  /* line-height: normal; */
+}
+.quick {
+  color: #fff;
+  font-family: Roboto Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  /* line-height: normal; */
 }

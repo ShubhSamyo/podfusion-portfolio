@@ -2,11 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto+Flex:opsz@8..144&family=Roboto+Serif:opsz@8..144&family=ZCOOL+XiaoWei&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto+Flex:opsz@8..144&family=Roboto+Serif:opsz@8..144&family=ZCOOL+XiaoWei&display=swap");
 
 :root {
   --blue: #1e90ff;
-
 }
 
 * {
@@ -15,17 +14,22 @@
 }
 
 .roboto {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 .aclonica {
-  font-family: 'Aclonica', sans-serif;
+  font-family: "Aclonica", sans-serif;
 }
 
 .roboto-serif {
-  font-family: 'Roboto Serif', serif;
+  font-family: "Roboto Serif", serif;
 }
 
-.z-cool{
-  font-family: 'ZCOOL XiaoWei', sans-serif;
+.z-cool {
+  font-family: "ZCOOL XiaoWei", sans-serif;
+}
+
+.text-primary {
+  --bs-text-opacity: 1;
+  color: rgba(61, 49, 138, 1) !important ;
 }
