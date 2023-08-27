@@ -67,25 +67,27 @@ export default function Footer() {
             <div className="col-4 left_section">
               <img src="logo.svg" />
             </div>
-            <div className="col-8 right_sectioin px-5  d-flex align-items-center justify-content-between">
-              <div className="quick-links">
+            <div className="col-7 right_sectioin px-5  d-flex align-items-center justify-content-between">
+              <div className="col-3 quick-links">
                 <span> Quick Links</span>
               </div>
-              <div className="footer-stay">
-                <span> Stay updated</span>
-              </div>
-              <div className="footer-icons d-flex">
-                {iconsData &&
-                  iconsData.map((item: any) => {
-                    return (
-                      <img
-                        key={item.className}
-                        src={item.src}
-                        alt={item.alt}
-                        className={item.className}
-                      />
-                    );
-                  })}
+              <div className="col-7 sec d-flex justify-content-between">
+                <div className="footer-stay">
+                  <span> Stay updated</span>
+                </div>
+                <div className="footer-icons d-flex">
+                  {iconsData &&
+                    iconsData.map((item: any) => {
+                      return (
+                        <img
+                          key={item.className}
+                          src={item.src}
+                          alt={item.alt}
+                          className={item.className}
+                        />
+                      );
+                    })}
+                </div>
               </div>
             </div>
           </div>
@@ -102,7 +104,7 @@ export default function Footer() {
               <br />
               nec.
             </div>
-            <div className="col-8 right_section2  d-flex  justify-content-between ">
+            <div className="col-7 right_section2  d-flex  justify-content-between ">
               <div className="col-3 left d-flex justify-content-evenly">
                 <div className="footer_link1">
                   <ul>
@@ -122,7 +124,7 @@ export default function Footer() {
                 </div>
               </div>
 
-              <div className="col-7 right px-4">
+              <div className="col-7 right px-2">
                 <div className="email-input-wrapper">
                   <div className="email-title-heading">
                     Please enter your email
@@ -132,23 +134,21 @@ export default function Footer() {
                   //     sendEmail(data);
                   //   })}
                   >
-                    <div className="input_group1 mt-2">
-                      <div className=" input-group p-1 rounded-5 ">
-                        <input
-                          // {...register("email")}
-                          type="text"
-                          className="form-control py-2  "
-                          placeholder="Email"
-                          aria-describedby="button-addon2"
-                        />
-                        <button
-                          className="btn btn-outline-secondary d-grid gap-2 col-4 text-light"
-                          type="button"
-                          id="button-addon2"
-                        >
-                          submit
-                        </button>
-                      </div>
+                    <div className=" input-group  rounded-5 ">
+                      <input
+                        // {...register("email")}
+                        type="text"
+                        className="form-control py-2  "
+                        placeholder="Email"
+                        aria-describedby="button-addon2"
+                      />
+                      <button
+                        className="btn btn-outline-secondary d-grid gap-2 col-4 text-light"
+                        type="button"
+                        id="button-addon2"
+                      >
+                        submit
+                      </button>
                     </div>
 
                     <div className="text-danger error-msg">
