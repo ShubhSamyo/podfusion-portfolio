@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import Image from "next/image";
 
 type footerProps = {
   email: any;
@@ -65,7 +66,7 @@ export default function Footer() {
         <div className="container pt-5">
           <div className="row  d-flex align-items-center">
             <div className="col-4 left_section">
-              <img src="logo.svg" />
+              <Image width={316} height={76} src="logo.svg" alt="logo" />
             </div>
             <div className="col-7 right_sectioin px-5  d-flex align-items-center justify-content-between">
               <div className="col-3 quick-links">
@@ -93,7 +94,7 @@ export default function Footer() {
           </div>
 
           <div className="row">
-            <div className="col-4 left_section1  pt-4 ">
+            <div className="col-4 left_section1  pt-5 ">
               Lorem ipsum dolor sit amet
               <br />
               consectetur. Luctus tincidunt neque
@@ -105,12 +106,16 @@ export default function Footer() {
               nec.
             </div>
             <div className="col-7 right_section2  d-flex  justify-content-between ">
-              <div className="col-3 left d-flex justify-content-evenly">
+              <div className="col-4 left d-flex justify-content-around">
                 <div className="footer_link1 ">
                   <ul>
                     {footerLink1 &&
                       footerLink1.map((item: any) => {
-                        return <li key={item}>{item}</li>;
+                        return (
+                          <li key={item} className="list pt-3">
+                            {item}
+                          </li>
+                        );
                       })}
                   </ul>
                 </div>
@@ -118,7 +123,11 @@ export default function Footer() {
                   <ul>
                     {footerLink2 &&
                       footerLink2.map((item: any) => {
-                        return <li key={item}>{item}</li>;
+                        return (
+                          <li key={item} className="list pt-3">
+                            {item}
+                          </li>
+                        );
                       })}
                   </ul>
                 </div>
