@@ -20,12 +20,9 @@
   justify-content: center;
 }
 .button-primary {
-  /* text-transform: uppercase; */
-  /* letter-spacing: 1px; */
   font-family: "Aclonica", sans-serif !important;
   color: #3d318a;
   font-size: 21px;
-  /* font-style: normal; */
   font-weight: 600;
   border-bottom: 1px solid #3d318a;
 }
