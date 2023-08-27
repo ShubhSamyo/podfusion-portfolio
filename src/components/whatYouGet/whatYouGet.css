@@ -1,0 +1,15 @@
+.what-you-get-bg {
+  background-image: url("/middle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.subscribe-section {
+  background: linear-gradient(270deg, #eac0cd, #ffffff);
+  background: -moz-linear-gradient(270deg, #eac0cd, #ffffff);
+  background: -webkit-linear-gradient(270deg, #eac0cd, #ffffff);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EAC0CD", endColorstr="#FFFFFF", GradientType=1 );
+
+  min-height: 250px;
+  border-radius: 300px;
+}

@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto+Flex:opsz@8..144&family=Roboto+Serif:opsz@8..144&family=ZCOOL+XiaoWei&display=swap");
 
 :root {
+  --primary: #3d318a;
   --blue: #1e90ff;
 }
 
@@ -32,4 +33,8 @@
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(61, 49, 138, 1) !important ;
+}
+
+.primary-color {
+  color: var(--primary);
 }

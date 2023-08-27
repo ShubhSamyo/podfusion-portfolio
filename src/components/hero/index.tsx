@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "@/componants/header";
+import Header from "@/components/header";
 
 const HeroSection = () => {
   return (
