@@ -14,8 +14,13 @@ interface CardProps {
 const Card = ({ card }: CardProps) => {
   return (
     <article className="card-section">
-      <div>
-        <Image src={card.image} width={374} height={418} alt={card.title} />
+      <div className="card-image">
+        <Image
+          src={card.image}
+          layout="fill"
+          objectFit="cover"
+          alt={card.title}
+        />
       </div>
       <div className="text-center text-section p-4 primary-color">
         <h3 className="roboto">
