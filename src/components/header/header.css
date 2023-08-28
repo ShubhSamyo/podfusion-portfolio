@@ -8,10 +8,16 @@
 }
 .setting-dropdown {
   position: absolute;
-  top: 30px;
+  top: 23px;
   right: 0px;
-  width: 80px;
+  width: 90px;
+  padding: 5px;
   background-color: antiquewhite;
+  border-radius: 5px;
+}
+.en {
+  color: #fff;
+  font-weight: 300;
 }
 .languages-header {
   display: flex;

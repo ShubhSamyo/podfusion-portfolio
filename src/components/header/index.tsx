@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import "./header.css";
 import { useState } from "react";
+import Navigation from "../navigation";
 
 type HeaderProps = {
   open: boolean;
@@ -64,13 +65,12 @@ export default function Header() {
               src={languageImages[language] || languageImages.EN}
               alt="flag"
             />
-            <h4
-              className="en mb-0"
-              style={{ fontFamily: "Aclonica" }}
+            <h5
+              className="en mb-0 aclonica px-1"
               onClick={() => setOpen(!open)}
             >
               {language}
-            </h4>
+            </h5>
             <img src="/flat-color-icons_settings.svg" alt="icon-settign" />
             <div
               className="setting-dropdown"
@@ -136,6 +136,7 @@ export default function Header() {
           </Link>
         </div>
       </div>
+      <Navigation />
     </header>
   );
 }
