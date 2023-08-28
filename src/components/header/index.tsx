@@ -48,8 +48,8 @@ export default function Header() {
     setOpen(!open);
   };
   return (
-    <header className="header_section">
-      <div className="row align-items-center justify-content-around">
+    <header className="header_section ">
+      <div className="row align-items-center justify-content-around pt-4">
         <div className="col-3 logo-img px-4 mb-4">
           <Image width={316} height={76} src="/logo.svg" alt="logo-img" />
         </div>
