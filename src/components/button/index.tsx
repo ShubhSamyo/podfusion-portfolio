@@ -3,13 +3,18 @@ import "./button.css";
 
 interface ButtonProps {
   children: React.ReactNode;
+  size: string;
 }
 
-const Button = ({ children }: ButtonProps) => {
+const Button = ({ children, size }: ButtonProps) => {
   return (
-    <div>
-      <button className="button-type-1">{children}</button>
-    </div>
+    <>
+      <div>
+        <button className={size == "sm" ? "button-type-1-sm" : "button-type-1"}>
+          {children}
+        </button>
+      </div>
+    </>
   );
 };
 
