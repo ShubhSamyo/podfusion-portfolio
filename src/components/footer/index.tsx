@@ -143,21 +143,21 @@ export default function Footer() {
                   //     sendEmail(data);
                   //   })}
                   >
-                    <div className=" input-group  rounded-5 ">
-                      <input
-                        // {...register("email")}
-                        type="text"
-                        className="form-control py-2  "
-                        placeholder="Email"
-                        aria-describedby="button-addon2"
-                      />
-                      <button
-                        className="button btn-outline-secondary d-grid gap-2 col-4 text-light"
-                        type="button"
-                        id="button-addon2"
-                      >
-                        submit
-                      </button>
+                    <div className="gradi tw-p-1">
+                      <div className=" input_group  tw-relative">
+                        <input
+                          type="text"
+                          className="form_control w-100 tw-rounded-2xl tw-p-2 tw-pr-36 	 "
+                          placeholder="Email"
+                        />
+
+                        <button
+                          className="submit tw-rounded-2xl tw-absolute tw-right-0 tw-py-2 tw-px-10 aclonica tw-text-white"
+                          type="button"
+                        >
+                          Submit
+                        </button>
+                      </div>
                     </div>
 
                     <div className="text-danger error-msg">
