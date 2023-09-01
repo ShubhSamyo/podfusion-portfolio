@@ -143,7 +143,7 @@ export default function Footer() {
                   //     sendEmail(data);
                   //   })}
                   >
-                    <div className="gradi tw-p-1">
+                    <div className="gradi tw-p-0.5">
                       <div className=" input_group  tw-relative">
                         <input
                           type="text"

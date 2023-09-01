@@ -96,4 +96,5 @@
 .gradi {
   border-radius: 20px;
   background: linear-gradient(180deg, #3d318a 39.84%, #96b6ff 100%);
+  padding: 3px;
 }
