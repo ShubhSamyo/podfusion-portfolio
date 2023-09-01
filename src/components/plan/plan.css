@@ -4,3 +4,9 @@
     linear-gradient(2deg, rgba(30, 30, 30, 0.4) 2.85%, #3d318a 9.12%, #fff 100%);
   background-repeat: repeat;
 }
+
+.plan_image {
+  background-image: url("/bg-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
