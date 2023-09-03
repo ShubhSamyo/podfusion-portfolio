@@ -36,7 +36,7 @@ const HeroSection = () => {
               </div>
               <div className="tw-self-end">
                 <Button>
-                  <h5 className="aclonica  white-color m-0">Try now</h5>
+                  <h5 className="aclonica m-0">Try now</h5>
                 </Button>
               </div>
             </div>

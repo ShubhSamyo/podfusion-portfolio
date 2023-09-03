@@ -80,9 +80,7 @@ const WhatYouGet = () => {
               </h2>
               <div className="d-flex justify-content-center">
                 <Button>
-                  <h3 className="aclonica text-uppercase white-color m-0">
-                    Subscribe
-                  </h3>
+                  <h3 className="aclonica text-uppercase m-0">Subscribe</h3>
                 </Button>
               </div>
             </div>
